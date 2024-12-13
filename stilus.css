@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    width: 80%;
+    max-width: 800px;
+    margin:auto;
+    display: block;
+    unicode-bidi: isolate;
+}
+body{
+    margin: 10px;
+}
+header{
+    margin-top: 100px;
+}
+nav{
+    background: rgb(218, 233, 238);
+    padding: 30px;
+    width: 100%;
+    border-radius: 10px;
+    position:fixed;
+    position: relative;
+    top:0;
+    left:0;
+    
+}
+.bezar{
+    position: absolute;
+    right: 20px;
+    padding: 5px 5px;
+    border-radius: 2px;
+    background-color: rgb(218, 233, 238);
+    color: red;
+    cursor: grab;
+    font-size: 20px;
+}
+fieldset{
+    margin: 25px;
+    display: grid;
+    grid-template-columns: 25px 25px;
+    border-width: 5px;
+    border-image: initial;
+}
+section img{
+    max-width: 250px;
+    padding: 20px;
+}
+.kepek{
+    background-color: rgb(218, 233, 238);
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    border-radius: 10px;
+    
+}
+
+.galeria img{
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 15px;
+}
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.megjelen {
+    display: none;
+}
+.kiskep:hover .megjelen{
+    display: block;
+}
+.kepek {
+    position: relative;
+}
+.megjelen {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 100%;
+}
+nav ul{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 150px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 5px;
+    padding: 0;
+    text-align: center;
+}
+li{
+    border: 1px solid gray;
+    background-color: gray;
+    border-radius: 3px;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;    
+}
+.dropdown-content {
+    display: none;
+}
+.dropdown-content li {
+    background-color: aliceblue;
+
+    border: 1px solid rgb(181, 188, 190);
+    margin: 1px 0 1px 22px;
+}
+.dropdown-content a {
+    color: rgb(88, 95, 97);
+    padding: 5px 15px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown:hover .dropdown-content {
+    position: absolute;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 5px 20px;
+}
+a:hover{
+    color: red;
+}
+nav ul a{
+    text-decoration: none;
+}
+
+main {
+    position: relative;
+}
+
+.keret {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+
+}
